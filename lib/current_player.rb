@@ -4,6 +4,7 @@ def turn_count(board)
   board.each |space| do
     if ![" ", '', nil].include? space
       counter += 1
+    end
   end
   return counter
 end
