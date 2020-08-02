@@ -15,4 +15,5 @@ def current_player(turncount)
     return 'O'
   else
     return 'X'
+  end
 end
