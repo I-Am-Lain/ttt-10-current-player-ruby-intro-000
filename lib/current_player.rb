@@ -11,7 +11,7 @@ end
 
 
 def current_player(turncount)
-  if turncount % 2 == 0
+  if turncount.even?
     return 'O'
   else
     return 'X'
